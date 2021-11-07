@@ -12,4 +12,3 @@
   ansible.builtin.apt:
     pkg: "{{ disable_snapd_package_name }}"
     state: absent
-

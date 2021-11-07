@@ -1,5 +1,5 @@
 galaxy_info:
-  role_name: "disable-snapd"
+  role_name: "disable_snapd"
   description: "Disables and removes snapd from ubuntu systems"
   author: Ben Yanke
   #company: your company (optional)

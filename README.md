@@ -42,6 +42,18 @@ None.
 Example Playbook
 ----------------
 
+First, add the following in your `requirements.yml` file:
+
+```yaml
+    - src: benyanke.disable_snapd
+```
+
+Then install the role:
+
+```bash
+ansible-galaxy install -r requirements.yml
+```
+
 Include the role for running
 
 ```yaml

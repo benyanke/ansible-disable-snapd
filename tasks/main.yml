@@ -1,0 +1,15 @@
+---
+
+- name: "Disable Snapd Service"
+  when: disable_snapd_stop_service | bool
+  ansible.builtin.service:
+    name: "{{ disable_snapd_service_name }}"
+    state: stopped
+    enabled: false
+
+- name: "Uninstall Snapd"
+  when: disable_snapd_uninstall_snapd | bool
+  ansible.builtin.apt:
+    pkg: "{{ disable_snapd_package_name }}"
+    state: absent
+

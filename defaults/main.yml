@@ -1,0 +1,7 @@
+---
+
+disable_snapd_stop_service: true
+disable_snapd_service_name: "snapd"
+
+disable_snapd_uninstall_snapd: true
+disable_snapd_package_name: "snapd"

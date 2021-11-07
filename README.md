@@ -42,20 +42,12 @@ None.
 Example Playbook
 ----------------
 
-Include the following in your `requirements.yml`:
-
-```yaml
-- src: git+https://gitlab.com/systemdad/ansible-disable-snapd.git
-  version: master
-  name: disable-snapd
-```
-
 Include the role for running
 
 ```yaml
     - hosts: servers
       roles:
-         - { role: disable-snapd }
+         - { role: benyanke.disable_snapd }
 ```
 
 Or, pass in parameters:
@@ -63,7 +55,7 @@ Or, pass in parameters:
 ```yaml
     - hosts: servers
       roles:
-         - { role: disable-snapd, disable_snapd_uninstall_snapd: false}
+         - { role: benyanke.disable_snapd, disable_snapd_uninstall_snapd: false}
 ```
 
 License

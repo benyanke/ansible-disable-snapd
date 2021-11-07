@@ -4,8 +4,6 @@ galaxy_info:
   author: Ben Yanke
   #company: your company (optional)
 
-  issue_tracker_url: https://gitlab.com/systemdad/ansible-disable-snapd/-/issues
-
   # Choose a valid license ID from https://spdx.org - some suggested licenses:
   # - BSD-3-Clause (default)
   # - MIT

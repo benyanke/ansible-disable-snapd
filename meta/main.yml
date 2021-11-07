@@ -40,5 +40,7 @@ galaxy_info:
     - snapd
     - ubuntu
     - canonical
+    - snap
+    - snapcraft
 
 dependencies: []
